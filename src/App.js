@@ -40,53 +40,53 @@ function App() {
         <div id="display" className="row">
           {display}
         </div>
-        <div id="clear" className="row" onClick={handleClear}>
+        <div id="clear" className="row btn" onClick={handleClear}>
           AC
         </div>
-        <div id="seven" onClick={handleNumber}>
-          7
+        <div id="seven" onClick={handleNumber} className='button'>
+          <span class="button_top">7</span>
         </div>
-        <div id="eight" onClick={handleNumber}>
-          8
+        <div id="eight" onClick={handleNumber} className='button'>
+          <span class="button_top">8</span>
         </div>
-        <div id="nine" onClick={handleNumber}>
-          9
+        <div id="nine" onClick={handleNumber} className='button'>
+          <span class="button_top">9</span>
         </div>
-        <div id="multiply" onClick={handleOperator}>
+        <div id="multiply" onClick={handleOperator} className='btn'>
           *
         </div>
-        <div id="four" onClick={handleNumber}>
-          4
+        <div id="four" onClick={handleNumber} className='button'>
+          <span class="button_top">4</span>
         </div>
-        <div id="five" onClick={handleNumber}>
-          5
+        <div id="five" onClick={handleNumber} className='button'>
+          <span class="button_top">5</span>
         </div>
-        <div id="six" onClick={handleNumber}>
-          6
+        <div id="six" onClick={handleNumber} className='button'>
+          <span class="button_top">6</span>
         </div>
-        <div id="divide" onClick={handleOperator}>
+        <div id="divide" onClick={handleOperator} className='btn'>
           /
         </div>
-        <div id="one" onClick={handleNumber}>
-          1
+        <div id="one" onClick={handleNumber} className='button'>
+          <span class="button_top">1</span>
         </div>
-        <div id="two" onClick={handleNumber}>
-          2
+        <div id="two" onClick={handleNumber} className='button'>
+          <span class="button_top">2</span>
         </div>
-        <div id="three" onClick={handleNumber}>
-          3
+        <div id="three" onClick={handleNumber} className='button'>
+          <span class="button_top">3</span>
         </div>
-        <div id="add" onClick={handleOperator}>
+        <div id="add" onClick={handleOperator} className='btn'>
           +
         </div>
-        <div id="zero" onClick={handleNumber}>
-          0
+        <div id="zero" onClick={handleNumber} className='button'>
+          <span class="button_top">0</span>
         </div>
-        <div id="decimal" onClick={handleDecimal}>.</div>
-        <div id="equals" onClick={handleEqual}>
+        <div id="decimal" onClick={handleDecimal} className='btn'>.</div>
+        <div id="equals" onClick={handleEqual} className='btn'>
           =
         </div>
-        <div id="subtract" onClick={handleOperator}>
+        <div id="subtract" onClick={handleOperator} className='btn'>
           -
         </div>
       </div>
